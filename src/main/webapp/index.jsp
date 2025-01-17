@@ -45,7 +45,7 @@
 					TOP-HEADER 영역
 			</div>
 			<nav>
-				NAV 영 역
+				NAV 영역
 			</nav>
 		</header>
 		
