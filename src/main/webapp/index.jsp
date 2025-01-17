@@ -42,7 +42,7 @@
 	<div class="wrapper">
 		<header>
 			<div class="top-header">  
-					TOP-HEADER 영역
+					TOP-HEADER 영역 
 			</div>
 			<nav>
 				NAV 영역
