@@ -84,9 +84,25 @@ body {
 	margin: 20px 0 40px 0;
 }
 
-.h_nav>li{
-	display: block;
+.h_nav li{
+ 	display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
 	font-size: 20px;
+}
+
+.h_nav li a::after{
+	display: block;
+	content: "";
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: all 0.3s;
+}
+
+.h_nav li:hover a::after {
+	width: 100%;
+	left: 100%;
 }
 
 .contents{
@@ -94,7 +110,7 @@ body {
 	
 }
 
-.contents>div{
+.contents div{
 	position: relative;
 	display: grid;
 	place-items: center;
@@ -104,13 +120,13 @@ body {
 	margin: 10px 0;
 }
 
-.contents>div:hover {
+.contents div:hover {
 	background: #333;
 	color: #fff;
 	transition: all 0.5s;
 }
 
-.contents>div>span{
+.contents div span{
 	font-size: 18px;
 }
 
@@ -135,11 +151,11 @@ body {
 			</div>
 		</div>
 			<ul class="h_nav">
-				<li>nav</li>
-				<li>nav</li>
-				<li>nav</li>
-				<li>nav</li>
-				<li>nav</li>
+				<li><a>nav</a></li>
+				<li><a>nav</a></li>
+				<li><a>nav</a></li>
+				<li><a>nav</a></li>
+				<li><a>nav</a></li>
 			</ul>
 	<div class="pagew">
 		<div class="contents">
